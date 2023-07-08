@@ -20,3 +20,4 @@ function getDay(){
     return  today.toLocaleDateString("en-US",options)
     
 }
+console.log("hello")
