@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(express.static("public"))
 
-mongoose.connect("mongodb+srv://admin-joao:teste123@cluster0.d1wikor.mongodb.net/todolistdb")
+mongoose.connect()
 const itemsSchema = mongoose.Schema({
 name : String
 })
